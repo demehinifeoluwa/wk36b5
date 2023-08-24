@@ -1,0 +1,55 @@
+html{
+    font-size: 35px;
+
+}
+section{
+    margin: 10px auto;
+    width: 70%;
+    height: 600px;
+    border: 0.5rem solid black;
+}
+
+
+.flag:nth-of-type(1){
+    background: linear-gradient(90deg, green 33.3%, white 33.3%, white 66.6%, green 66.6%);
+    border-left: 17.5px solid black;
+    border-right: 17.5px;
+}
+.flag:nth-of-type(2){
+    background: linear-gradient(90deg, blue 33.3%, white 33.3%, white 66.6%, red 66.6%);
+    border-left: 17.5px solid black;
+    border-right: 17.5px;
+}
+.flag:nth-of-type(3){
+    background: linear-gradient(180deg, black 33.3%, red 33.3%, red 66.6%, yellow 66.6% );
+    border-left: 17.5px solid black;
+    border-right: 17.5px;
+}
+.flag:nth-of-type(4){
+    background: linear-gradient( 180deg, red 33.3%, blue 33.3%, blue 66.6%, green 66.6%);
+    border-left: 17.5px solid black;
+    border-right: 17.5px;
+}
+.flag:nth-of-type(5){
+    background: linear-gradient( 180deg, green 33.3%, yellow 33.3%, yellow 66.6%, blue 66.6% );
+    border-left: 17.5px solid black;
+    border-right: 17.5px;
+}
+.flag:nth-of-type(6){
+    background: radial-gradient( circle, crimson 40%, white 40%);
+    border-left: 17.5px solid black;
+    border-right: 17.5px solid black;
+}
+.flag:nth-of-type(7){
+    background-image: url(./image/Black\ star.png), linear-gradient(180deg, red 33.3%, yellow 33.3%, yellow 66.6%, green 66.6%);
+    background-size: 280px contain;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+
+.flag:nth-of-type(8){
+    background-image: url(./image/canada.png), linear-gradient(90deg, red 33.3%, white 33.3%, white 66.6%, red 66.6%);
+    background-size: 280px contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
