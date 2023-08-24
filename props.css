@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+
+section{
+    margin: 10px auto;
+    width: 700px;
+    height: 600px;
+    border: 5px solid blue;
+}
+.props:nth-of-type(4){
+     background: linear-gradient(60deg, green , violet );
+}
+    .props:nth-of-type(2){
+        background: linear-gradient(90deg, blue 25%, black 25%);
+}
+    .props:nth-of-type(3){
+        width: .8m;
+        background: linear-gradient(90deg, green 33.3%, white 33.3%, white 66.6%, green 66.6% )
+}
+.props:nth-of-type(1){
+    background-image: linear-gradient(to bottom left, crimson 40%, fuchsia 40%) ;
+}
+.props:nth-of-type(5){
+    background: repeating-radial-gradient(circle, green 20%, blue 30%, red 40%);
+}
+h1{
+    font-family:'Quicksand',sans-serif ;
+    background-image: comic-gradient(
+        red 20%
+        blue 20%
+        blue 55%
+        magenta 55%
+        magenta 66%
+        moccasin 66%
+        moccasin 79%
+        skyblue 79%
+        skyblue 89%
+        purple 89% );
+    ba
+   
+    font-weight: 700;
+} 
+p{
+    font-family: 'Borel',cursive;
+    font-weight: 200;
+}
